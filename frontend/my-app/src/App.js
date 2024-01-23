@@ -4,7 +4,7 @@ import ProductsList from './component/ProductList'
 import React, { useState } from 'react'
 import CartList from './component/CartList'
 import AddProduct from './component/AddProduct'
-import ProductDetails from './component/ProductDetails'
+
 
 const App = () => {
   const [menuView, setMenuView] = useState(false)
@@ -48,7 +48,7 @@ const App = () => {
       )}
       {view === 'productList' && <ProductsList/>}
       {view === 'cart' && <CartList />}
-      {view === 'productDetails' && <div><ProductDetails/></div>}
+     
       {view === 'addProduct' && <AddProduct/>}
 
     </div>

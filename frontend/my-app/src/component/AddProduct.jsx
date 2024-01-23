@@ -14,7 +14,7 @@ const obj = {
     "price": price,
     "description": description,
  "category" : category,
-    "imageUrl": "https://media.direct.playstation.com/is/image/psdglobal/PS5-digital-edition-console-front"
+    "imageUrl": "https://m.media-amazon.com/images/I/61j1ZCgzQRL._AC_UF1000,1000_QL80_.jpg"
   }
 axios
 .post("http://localhost:5050/api/product",obj)
